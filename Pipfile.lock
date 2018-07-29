@@ -178,7 +178,7 @@
                 "sha256:e61e0368e7eaa6e310f50b3d3538720e808b88ffba46e86e02e9b20e22812233"
             ],
             "index": "redhat-aicoe-experiments",
-            "version": "==1.9.0rc0"
+            "version": "==1.9.0"
         },
         "termcolor": {
             "hashes": [
