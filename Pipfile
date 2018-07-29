@@ -1,0 +1,20 @@
+[[source]]
+url = "https://index-aicoe.a3c1.starter-us-west-1.openshiftapps.com/fedora28/1.9/jemalloc"
+verify_ssl = true
+name = "redhat-aicoe-experiments"
+
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[requires]
+python_version = "2.7"
+
+[packages]
+tensorflow = {version="==1.9.0rc0", index="redhat-aicoe-experiments"}
+
+[develop]
+
+[pipenv]
+allow_prereleases = true
